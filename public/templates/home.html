@@ -1,1 +1,10 @@
-home.html
+
+  <div class="container" data-ng-repeat="entry in hC.entryList">
+    <p> Date: {{entry.date}}</p>
+    <p> Location: {{entry.placeGeneral}} - {{entry.placeSpecific}}</p>
+    <p> Water Time: {{entry.timeIn}} - {{entry.timeOut}}</p>
+    <p> Tide: {{entry.tide}}</p>
+    <p> Swell: {{entry.swell}} @ {{entry.direction}} degrees</p>
+    <p> Rating: {{entry.rating}}</p>
+    <p> Experience: {{entry.session}}</p>
+  </div>

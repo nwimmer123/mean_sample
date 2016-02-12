@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="/">
 
-
   <!-- angular -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
 
@@ -19,7 +18,13 @@
 </head>
 <body>
   <nav class="navbar navbar-default">
-
   </nav>
-  <div ui-view></div></body>
-</html>
+
+  <div ui-view='top'></div>
+
+  <div ui-view='main'></div>
+
+  <div ui-view='bottom'></div>
+
+
+ </body></html>
